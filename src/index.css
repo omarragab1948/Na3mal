@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+.header {
+  text-align: center;
+  margin: 20px auto;
+  color: #22abb0;
+  font-size: 24px;
+}
+.p-galleria-item-wrapper {
+  height: 90vh;
+}
+.p-galleria-item img {
+  height: 100% !important;
+}
+.no-data {
+  text-align: center;
+  font-size: 25px;
+  padding: 30px 0px;
+  border: 1px dashed #22abb0;
+  color: #22abb0;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.container-flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+input {
+  margin: 5px 0px;
+  width: 90%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+input:focus {
+  box-shadow: none;
+  border: 1px solid #ddd;
+  outline: none;
+}
+/* tab links */
+.p-tabview-nav,
+.p-tabview-nav-container {
+  background-color: #22abb0 !important;
+}
+.p-tabview-nav-link {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  border-color: #000 !important;
+}
+.p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
+  box-shadow: none !important;
+}
+/* tab links */
+.roomsreservations input[type="radio"] {
+  width: 20px !important;
+}
+@media (max-width: 768px) {
+  .container-fluid {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .p-tabview-nav-container {
+    margin-top: 65px !important;
+  }
+}
+
+.see-more {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 30px 0px;
+}
+.see-more .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.notFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.notFound .content {
+  padding: 50px 100px;
+  border: 2px dashed #22abb0;
+  text-align: center;
+}
+.notFound .content p {
+  font-size: 28px;
+  color: #22abb0;
+  margin: 10px;
+}
+.header-title {
+  font-size: 40px;
+}
+
+/*Calender*/
+.fc-button {
+  background-color: #22abb0 !important;
+  color: #fff !important;
+  width: 80px !important;
+}
+.fc-button span {
+  width: 100%;
+}
+.fc-icon-chevron-right::before {
+  content: "Next" !important;
+}
+.fc-icon-chevron-left::before {
+  content: "previous" !important;
+}
+.fc-toolbar-chunk {
+  display: flex;
+  flex-direction: row;
+}
+.fc .fc-button .fc-icon {
+  display: flex !important ;
+  justify-content: center !important
+}
+@media (max-width: 765px) {
+  .fc-toolbar-chunk {
+    display: flex;
+    flex-direction: column;
+  }
+  .fc-button-group {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0 !important ;
+  }
+  .fc-button-group button {
+    margin: 5px 0 !important;
+  }
+}
+.fc.fc-theme-standard .fc-view-harness .fc-event.fc-daygrid-dot-event .fc-daygrid-event-dot {
+  background-color: #22abb0 !important;
+  border-color: #22abb0 !important;
+}
+/*Calender*/

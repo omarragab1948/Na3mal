@@ -1,0 +1,174 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "idNumber": "12345678901234",
+      "info": {
+        "name": "Ahmed Mohamed",
+        "age": 35,
+        "gender": "Male"
+      },
+      "chronicDiseases": {
+        "first": "diabetes",
+        "second": "decompression sickness",
+        "fdas": "fdaf",
+        "gjgfgj": "fjgfgjgfr"
+      },
+      "previousVisits": [
+        {
+          "date": "25-3-2023",
+          "diagnosis": "The patient presents with elevated blood glucose levels and symptoms of polyuria, polydipsia, and unexplained weight loss. Based on these findings, the patient is diagnosed with diabetes mellitus. Further evaluation and management are recommended to control blood sugar levels and prevent complications."
+        },
+        {
+          "date": "25-4-2023",
+          "diagnosis": "The patient presents with elevated blood glucose levels and symptoms of polyuria, polydipsia, and unexplained weight loss. Based on these findings, the patient is diagnosed with diabetes mellitus. Further evaluation and management are recommended to control blood sugar levels and prevent complications."
+        },
+        {
+          "date": "2023-08-17",
+          "diagnosis": "aaaa"
+        },
+        {
+          "date": "2023-08-05",
+          "diagnosis": "wwww"
+        },
+        {
+          "date": "2023-08-03",
+          "diagnosis": "rrrr"
+        },
+        {
+          "date": "2023-08-19",
+          "diagnosis": "hjjjj"
+        }
+      ],
+      "xRay": [
+        {
+          "image": "https://th.bing.com/th/id/OIP.zwWE6lJl_Ls1BMNExPqjqgHaFj?pid=ImgDet&rs=1",
+          "date": "25-1-2023",
+          "notes": "The patient presents with elevated blood glucose levels and symptoms of polyuria, polydipsia, and unexplained weight loss. Based on these findings, the patient is diagnosed with diabetes mellitus. Further evaluation and management are recommended to control blood sugar levels and prevent complications."
+        },
+        {
+          "image": "https://th.bing.com/th/id/OIP.zwWE6lJl_Ls1BMNExPqjqgHaFj?pid=ImgDet&rs=1",
+          "date": "25-2-2023",
+          "notes": "The patient presents with elevated blood glucose levels and symptoms of polyuria, polydipsia, and unexplained weight loss. Based on these findings, the patient is diagnosed with diabetes mellitus. Further evaluation and management are recommended to control blood sugar levels and prevent complications."
+        }
+      ],
+      "pathologicalTests": [
+        {
+          "image": "https://th.bing.com/th/id/OIP.l13_5AT9Rx90vIvfrCIQLAHaDS?pid=ImgDet&w=850&h=378&rs=1",
+          "date": "25-9-2023",
+          "notes": "The patient presents with joint pain, swelling, and stiffness, along with fatigue and weight gain. A clinical examination and lab tests indicate arthritis and hypothyroidism. Appropriate medications and lifestyle modifications are recommended for symptom management."
+        },
+        {
+          "image": "https://th.bing.com/th/id/OIP.l13_5AT9Rx90vIvfrCIQLAHaDS?pid=ImgDet&w=850&h=378&rs=1",
+          "date": "25-9-2023",
+          "notes": "The patient presents with joint pain, swelling, and stiffness, along with fatigue and weight gain. A clinical examination and lab tests indicate arthritis and hypothyroidism. Appropriate medications and lifestyle modifications are recommended for symptom management."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "idNumber": "56789012345678",
+      "info": {
+        "name": "Fatma Mohamed",
+        "age": 42,
+        "gender": "Female"
+      },
+      "chronicDiseases": {
+        "first": "diabetes",
+        "second": "decompression sickness"
+      },
+      "previousVisits": [
+        {
+          "date": "20-2-2023",
+          "diagnosis": "The patient presents with elevated blood pressure and is diagnosed with hypertension. Monitoring and management of blood pressure are recommended to reduce the risk of cardiovascular complications."
+        },
+        {
+          "date": "15-5-2023",
+          "diagnosis": "The patient's blood pressure remains elevated despite medication. Further evaluation and adjustment of treatment are required to achieve blood pressure control and prevent complications."
+        }
+      ],
+      "xRay": [
+        {
+          "image": "https://th.bing.com/th/id/OIP.zwWE6lJl_Ls1BMNExPqjqgHaFj?pid=ImgDet&rs=1",
+          "date": "25-2-2023",
+          "notes": "The patient presents with elevated blood glucose levels and symptoms of polyuria, polydipsia, and unexplained weight loss. Based on these findings, the patient is diagnosed with diabetes mellitus. Further evaluation and management are recommended to control blood sugar levels and prevent complications."
+        },
+        {
+          "image": "https://th.bing.com/th/id/OIP.zwWE6lJl_Ls1BMNExPqjqgHaFj?pid=ImgDet&rs=1",
+          "date": "25-3-2023",
+          "notes": "The patient presents with elevated blood glucose levels and symptoms of polyuria, polydipsia, and unexplained weight loss. Based on these findings, the patient is diagnosed with diabetes mellitus. Further evaluation and management are recommended to control blood sugar levels and prevent complications."
+        }
+      ],
+      "pathologicalTests": [
+        {
+          "image": "https://th.bing.com/th/id/OIP.l13_5AT9Rx90vIvfrCIQLAHaDS?pid=ImgDet&w=850&h=378&rs=1",
+          "date": "25-9-2023",
+          "notes": "The patient presents with joint pain, swelling, and stiffness, along with fatigue and weight gain. A clinical examination and lab tests indicate arthritis and hypothyroidism. Appropriate medications and lifestyle modifications are recommended for symptom management."
+        },
+        {
+          "image": "https://th.bing.com/th/id/OIP.l13_5AT9Rx90vIvfrCIQLAHaDS?pid=ImgDet&w=850&h=378&rs=1",
+          "date": "25-9-2023",
+          "notes": "The patient presents with joint pain, swelling, and stiffness, along with fatigue and weight gain. A clinical examination and lab tests indicate arthritis and hypothyroidism. Appropriate medications and lifestyle modifications are recommended for symptom management."
+        }
+      ]
+    }
+  ],
+  "bookAppointment": [
+    {
+      "patientFk_Id": "123456789",
+      "fk_RoomId": "d04c67c3-18f1-4c26-99c3-08db9076faab",
+      "fromDate": "2023-08-09T21:00:00.000Z",
+      "toDate": "2023-08-11T21:00:00.000Z",
+      "roomType": "Excellent First Class",
+      "roomCost": 600,
+      "roomDescription": "It contains Air conditional system and TV.",
+      "id": 1
+    },
+    {
+      "patientFk_Id": "123456789",
+      "fk_RoomId": "d04c67c3-18f1-4c26-99c3-08db9076faab",
+      "fromDate": "2023-08-09T21:00:00.000Z",
+      "toDate": "2023-08-14T21:00:00.000Z",
+      "roomType": "Wing Class",
+      "roomCost": 300,
+      "roomDescription": "It contains Food.",
+      "id": 2
+    },
+    {
+      "patientFk_Id": "123456789",
+      "fk_RoomId": "d04c67c3-18f1-4c26-99c3-08db9076faab",
+      "fromDate": "2023-08-09T21:00:00.000Z",
+      "toDate": "2023-08-18T21:00:00.000Z",
+      "roomType": "Excellent First Class",
+      "roomCost": 600,
+      "roomDescription": "It contains Air conditional system and TV.",
+      "id": 3
+    }
+  ],
+  "roomTypes": [
+    {
+      "id": 1,
+      "type": "Excellent First Class",
+      "cost": 600,
+      "description": "It contains Air conditional system and TV."
+    },
+    {
+      "id": 2,
+      "type": "First Class Luxury",
+      "cost": 500,
+      "description": "It contains TV only."
+    },
+    {
+      "id": 3,
+      "type": "Wing Class",
+      "cost": 300,
+      "description": "It contains Food."
+    },
+    {
+      "id": 4,
+      "type": "Cribs (beds) emergency service",
+      "cost": 250,
+      "description": "It contains Food and Fan."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+.btn{
+    border:1px solid #ddd;
+    padding:10px 20px;
+    color:#ddd;
+    border-radius: 15px;
+
+}
+.default{
+    border:1px solid #22abb0;
+    background-color: #22abb0 !important;
+    color:#fff
+}
+
+.delete{
+    border:1px solid red;
+    background-color: red;
+    color:#fff
+}

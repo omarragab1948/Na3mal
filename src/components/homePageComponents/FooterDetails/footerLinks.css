@@ -1,0 +1,82 @@
+.footer {
+  background-color: #26798c;
+  padding:30px 0px;
+  color: #fff;
+}
+.footer .content{
+    display: flex;
+
+}
+.footer .content > div {
+  flex: 1;
+}
+.footer .content.footer-links {
+}
+
+.footer .content .footer-links .logo {
+    width:150px;
+    height:60px;
+    border-radius: 10px;
+    margin:10px 0px;
+}
+.footer .content .footer-links .links ul li{
+    margin: 10px 0px;
+    font-size: 18px;
+
+}
+.footer .content .footer-links .logo img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+
+}
+.footer .content  .footer-socailIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .content  .footer-socailIcons .icons{
+    height:50%;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    align-items: center;
+
+}
+.footer .content  .footer-socailIcons .icons .pi{
+    font-size: 2rem;
+}
+
+.footer .content  .footer-socailIcons .icons .pi:hover{
+    border:1px solid #fff;
+    padding:10px;
+    border-radius: 50%;
+}
+.footer .content  .footer-contact-Info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .content  .footer-contact-Info .info{
+    width:50%;
+    
+}
+.footer .content  .footer-contact-Info .info >div{
+    margin:20px 0px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap:10px;
+
+}
+@media (max-width:992px) {
+    .footer .content{
+       flex-direction: column;
+       gap:20px
+    
+    }
+    .footer .content  .footer-socailIcons{
+        justify-content: flex-start;
+    }
+    
+}

@@ -1,0 +1,41 @@
+.about-section .About-us,
+.about-section .vision-mission{
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+    margin:50px 0px
+    
+    
+}
+.about-section .About-us >div{
+    flex: 1;
+
+}
+.about-section .About-us .text h3,
+.about-section .vision-mission> div h4{
+  font-size: 20px;
+  font-weight: 600;
+  color:#26798c;
+  margin: 20px 0px;
+}
+.about-section .About-us .image img{
+    width:100%;
+    height:100%;
+    border-radius: 20px;
+}
+
+.about-section p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #606060;
+}
+
+
+@media (max-width:992px){
+.about-section .About-us,
+.about-section .vision-mission{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}

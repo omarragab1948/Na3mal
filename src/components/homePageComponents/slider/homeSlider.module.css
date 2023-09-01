@@ -1,0 +1,40 @@
+.slider{
+    height: 70vh;
+}
+.slider-content{
+    background-size:cover;
+
+}
+.slider-content  .content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider-content .content .news{
+    width: 70%;
+    padding:20px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+}
+.slider-content .content .reservationbtn{
+    margin: 20px 0px;
+    border:1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+.slider-content .content .reservationbtn:hover{
+    background-color: #22abb0;
+    border: 1px solid #22abb0;
+    color:#fff;
+}
+@media (max-width:500) {
+    .slider-content .content .news{
+        font-size: 18px;
+    }
+    
+}

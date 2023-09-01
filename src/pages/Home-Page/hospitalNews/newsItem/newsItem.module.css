@@ -1,0 +1,34 @@
+.card{
+    width: 300px;
+    margin: 40px 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  
+  }
+  .card img{
+      width: 100%;
+      border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .card .member-details{
+      padding: 20px;
+      text-align: center;
+
+  
+  }
+  .card .member-details h4{
+    color:#22abb0;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+  .card .member-details p{
+    line-height: 1.5;
+
+  }
+  .icons{
+    display: flex;
+    justify-content: flex-end;
+    margin:10px 0px;
+    gap:20px
+  }
